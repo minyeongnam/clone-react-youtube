@@ -18,8 +18,9 @@ export default function Header() {
   }, [keyword]);
   return (
     <header className="header">
-      <Link to="/">
-        <BsYoutube /> Youtube
+      <Link to="/" className="logo">
+        <BsYoutube />
+        <span>Youtube</span>
       </Link>
       <form className="search" onSubmit={handleSubmit}>
         <input
@@ -27,6 +28,7 @@ export default function Header() {
           placeholder="search"
           value={searchText}
           onChange={handleChangeSearch}
+          className="search-input"
         />
         <button type="submit">
           <BsSearch />
