@@ -1,0 +1,437 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "Yb9Xe8Jq16t9fAzwCPSwcgu6LeE",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "JupBW0Gv7Ho_SGpudvbXAYON-gw",
+      "id": "FWKA9BgfvNs",
+      "snippet": {
+        "publishedAt": "2023-09-08T09:00:11Z",
+        "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+        "title": "EP.1 | 4년 만에 더 다운그레이드(?) 되어 돌아왔습니다 l 🗽이서진의 뉴욕뉴욕2",
+        "description": "대단히 반갑습니다 상당히 고맙습니다 4년 전 대작 유튜브로 돌아왔습니다 이번엔 더 나불나불 대보려고요 그래서 우리가 이번에 어디를 갔냐면요 ㅊㅏ…\n\n#채널십오야 #이서진의뉴욕뉴욕2 #이서진 #유료광고포함",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FWKA9BgfvNs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FWKA9BgfvNs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FWKA9BgfvNs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FWKA9BgfvNs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FWKA9BgfvNs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "채널 십오야",
+        "tags": [
+          "나영석",
+          "나PD",
+          "아간세",
+          "아이슬란드간세끼",
+          "이수근",
+          "수근세끼",
+          "은지원",
+          "지원세끼",
+          "삼시세끼",
+          "세끼",
+          "신효정",
+          "나피디",
+          "묘한이",
+          "tvN",
+          "라끼남",
+          "라면",
+          "라면끼리는남자",
+          "강호동",
+          "양정우",
+          "육봉선생",
+          "6봉선생",
+          "라면먹방",
+          "마포멋쟁이",
+          "마포",
+          "멋쟁이",
+          "송민호",
+          "표지훈",
+          "민호",
+          "지훈",
+          "피오",
+          "MINO",
+          "PO",
+          "P.O",
+          "위너",
+          "WINNER",
+          "송표",
+          "표송",
+          "패션",
+          "패션유튜버",
+          "패션유튜브",
+          "삼시네세끼",
+          "달나라공약이행프로젝트",
+          "달나라프로젝트",
+          "달나라",
+          "젝스키스",
+          "젝키",
+          "Sechs Kies",
+          "슬의",
+          "슬기로운하드털이",
+          "슬의생",
+          "신원호",
+          "조정석",
+          "유연석",
+          "장겨울",
+          "hospitalplaylist",
+          "이식당",
+          "나홀로이식당",
+          "나노",
+          "우주",
+          "김준",
+          "어깨춤",
+          "언제까지어깨춤을추게할거야",
+          "규현",
+          "조규현",
+          "조정뱅이",
+          "슈퍼주니어",
+          "superjunior",
+          "슈주",
+          "악마는정남이를입는다",
+          "악마정남",
+          "배정남",
+          "출장십오야",
+          "출장",
+          "슬기로운캠핑생활",
+          "캠핑생활",
+          "슬캠",
+          "내과박원장",
+          "이서진",
+          "BH",
+          "BTS",
+          "하이브",
+          "hybe",
+          "스타쉽",
+          "starship",
+          "txt",
+          "르세라핌",
+          "lesserafim",
+          "세븐틴",
+          "seventeen",
+          "지구오락실",
+          "지락실",
+          "토롱이"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "EP.1 | 4년 만에 더 다운그레이드(?) 되어 돌아왔습니다 l 🗽이서진의 뉴욕뉴욕2",
+          "description": "대단히 반갑습니다 상당히 고맙습니다 4년 전 대작 유튜브로 돌아왔습니다 이번엔 더 나불나불 대보려고요 그래서 우리가 이번에 어디를 갔냐면요 ㅊㅏ…\n\n#채널십오야 #이서진의뉴욕뉴욕2 #이서진 #유료광고포함"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT19M33S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1583018",
+        "likeCount": "34841",
+        "favoriteCount": "0",
+        "commentCount": "2240"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "SMTFr03Ecw8BDnO8zyJwZ4nNxNo",
+      "id": "eI0iTRS0Ha8",
+      "snippet": {
+        "publishedAt": "2023-09-08T04:00:01Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "V 'Slow Dancing' Official MV",
+        "description": "V 'Slow Dancing' Official MV\n\n'Layover' Release\n💽 https://ingrv.es/layover\n\nCredits:\nProducer: MIN HEE JIN\nMusic Video Director: Shin Dongle\n\n\nBIGHIT MUSIC. Rights are reserved selectively in the video. Unauthorized reproduction is a violation of applicable laws. Manufactured by BIGHIT MUSIC, Seoul, Korea.\n\n\nConnect with BTS:\nhttps://ibighit.com/bts\nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt\nhttp://www.facebook.com/bangtan.official\nhttps://www.youtube.com/user/BANGTANTV\nhttp://instagram.com/BTS.bighitofficial\nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers\nhttp://btsblog.ibighit.com\n\n#V #뷔 #V_Layover",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eI0iTRS0Ha8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eI0iTRS0Ha8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eI0iTRS0Ha8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/eI0iTRS0Ha8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/eI0iTRS0Ha8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "tags": ["HYBE", "HYBE LABELS", "하이브", "하이브레이블즈"],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "V 'Slow Dancing' Official MV",
+          "description": "V 'Slow Dancing' Official MV\n\n'Layover' Release\n💽 https://ingrv.es/layover\n\nCredits:\nProducer: MIN HEE JIN\nMusic Video Director: Shin Dongle\n\n\nBIGHIT MUSIC. Rights are reserved selectively in the video. Unauthorized reproduction is a violation of applicable laws. Manufactured by BIGHIT MUSIC, Seoul, Korea.\n\n\nConnect with BTS:\nhttps://ibighit.com/bts\nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt\nhttp://www.facebook.com/bangtan.official\nhttps://www.youtube.com/user/BANGTANTV\nhttp://instagram.com/BTS.bighitofficial\nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers\nhttp://btsblog.ibighit.com\n\n#V #뷔 #V_Layover"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT3M11S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "9976366",
+        "likeCount": "1801709",
+        "favoriteCount": "0",
+        "commentCount": "167117"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "zgGzQIXkzQqwfGvnljjQ0ywdD1M",
+      "id": "7RnzOZt0egM",
+      "snippet": {
+        "publishedAt": "2023-09-07T09:00:11Z",
+        "channelId": "UCDNvRZRgvkBTUkQzFoT_8rA",
+        "title": "보답은 핑계고",
+        "description": "전부터 제가 어딨든 발 벗고 나서서 도와준 두 동생들이 있는데요.\n쑥스러워서 둘한테 고마움을 제대로 표현한 적이 없더라고요?\n그래서 밥 한 끼 사주면서 지금까지 받은 은혜를 제대로 보답하려고 불렀습니다.\n\n사실 다~~ 핑계고🐓\n밥 먹으면서 토크까지 배부르게 떠들어제껴봤습니다.\n\nㅡㅡㅡ\n유선배 복지 콘텐츠 🐓핑계고🐓\n우리도 언제 올릴지 몰라요 ⚠불시 업로드⚠\n☁구독 & 좋아요 & 알림설정 필수☁\n\nㅡㅡㅡ\n\n[채널 '뜬뜬' of 안테나플러스]\n연출 | 조은진 조수빈 김다윤 이은솔 추형록 오민주\n작가 | 김송화 최수정 김이진 정채휴 이동연\n\nㅡㅡㅡ\n\n👇’뜬뜬’ 소식 보러가기\n[https://instagram.com/ddeun._.ddeun]\n#뜬뜬 #핑계고 #유재석 #데프콘 #김종민 #보답\n\n- 본 콘텐츠와 무관한 내용의 댓글과 출연자에 대한 무분별한 욕설, 비난 및 조롱 등 악의적인 댓글은 무통보 삭제될 수 있습니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7RnzOZt0egM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7RnzOZt0egM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7RnzOZt0egM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7RnzOZt0egM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7RnzOZt0egM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "뜬뜬 DdeunDdeun",
+        "tags": [
+          "뜬뜬",
+          "핑계고",
+          "데프콘",
+          "김종민",
+          "유재석",
+          "토크",
+          "잠안올때",
+          "빙수맛집",
+          "파스타",
+          "스우파2",
+          "리더배틀",
+          "맛집추천",
+          "무빙",
+          "드라마요약",
+          "무한도전",
+          "데북곤",
+          "가능한",
+          "나는솔로",
+          "나솔",
+          "어린이유치원",
+          "망고빙수",
+          "먹방"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "보답은 핑계고",
+          "description": "전부터 제가 어딨든 발 벗고 나서서 도와준 두 동생들이 있는데요.\n쑥스러워서 둘한테 고마움을 제대로 표현한 적이 없더라고요?\n그래서 밥 한 끼 사주면서 지금까지 받은 은혜를 제대로 보답하려고 불렀습니다.\n\n사실 다~~ 핑계고🐓\n밥 먹으면서 토크까지 배부르게 떠들어제껴봤습니다.\n\nㅡㅡㅡ\n유선배 복지 콘텐츠 🐓핑계고🐓\n우리도 언제 올릴지 몰라요 ⚠불시 업로드⚠\n☁구독 & 좋아요 & 알림설정 필수☁\n\nㅡㅡㅡ\n\n[채널 '뜬뜬' of 안테나플러스]\n연출 | 조은진 조수빈 김다윤 이은솔 추형록 오민주\n작가 | 김송화 최수정 김이진 정채휴 이동연\n\nㅡㅡㅡ\n\n👇’뜬뜬’ 소식 보러가기\n[https://instagram.com/ddeun._.ddeun]\n#뜬뜬 #핑계고 #유재석 #데프콘 #김종민 #보답\n\n- 본 콘텐츠와 무관한 내용의 댓글과 출연자에 대한 무분별한 욕설, 비난 및 조롱 등 악의적인 댓글은 무통보 삭제될 수 있습니다."
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT56M41S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1487899",
+        "likeCount": "32496",
+        "favoriteCount": "0",
+        "commentCount": "3752"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "sDIcU6m8FcDFmIZWYV-5o9A-aeU",
+      "id": "MDos4RqqJG4",
+      "snippet": {
+        "publishedAt": "2023-09-08T04:52:59Z",
+        "channelId": "UC1rVspUVgsWRqvSPGe7mSRQ",
+        "title": "[FULL영상] \"아무것도 안 하면 땅속에 들어가면 되겠네.\" 호기심이 많아 세상 바쁘게 사는 104 할아버지",
+        "description": "특종세상 599회\n2023년 9월 7일 방송 \n\n104세 할아버지의 장수 비밀\n\n매주 목요일 밤 9시 10분 본방송\n \n#특종세상 #MBN #장수\n\n💖구독 👍좋아요 🔔알람 \n설정 시 '특종세상'  을 더 빨리 만날 수 있습니다\n\n👉특종세상 채널 구독하기 / https://www.youtube.com/@Exclusiveworld_MBN\n\n☞ MBN Entertainment 구독하기 : https://www.youtube.com/c/MBN_Entertainment",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MDos4RqqJG4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MDos4RqqJG4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MDos4RqqJG4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MDos4RqqJG4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MDos4RqqJG4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "특종세상 - 그때 그 사람",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[FULL영상] \"아무것도 안 하면 땅속에 들어가면 되겠네.\" 호기심이 많아 세상 바쁘게 사는 104 할아버지",
+          "description": "특종세상 599회\n2023년 9월 7일 방송 \n\n104세 할아버지의 장수 비밀\n\n매주 목요일 밤 9시 10분 본방송\n \n#특종세상 #MBN #장수\n\n💖구독 👍좋아요 🔔알람 \n설정 시 '특종세상'  을 더 빨리 만날 수 있습니다\n\n👉특종세상 채널 구독하기 / https://www.youtube.com/@Exclusiveworld_MBN\n\n☞ MBN Entertainment 구독하기 : https://www.youtube.com/c/MBN_Entertainment"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT26M7S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "379678",
+        "likeCount": "3823",
+        "favoriteCount": "0",
+        "commentCount": "370"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "7MOHxhThZbZaTRHbaNZwS3Okz0I",
+      "id": "iuIzniSa1Hs",
+      "snippet": {
+        "publishedAt": "2023-09-05T15:08:02Z",
+        "channelId": "UCsjD7wxKCD8C62_idZQdGJg",
+        "title": "[스우파2/풀버전] 리더 계급 댄스 비디오 l Smoke (Prod. Dynamicduo, Padi) - 다이나믹 듀오, 이영지 #스트릿우먼파이터2",
+        "description": "[스우파2/풀버전] 리더 계급 댄스 비디오 l Smoke (Prod. Dynamicduo, Padi) - 다이나믹 듀오, 이영지\n\nBada / Akanen / Funky_Y / HALO / Kirsten / LIA KIM / Mina Myoung / NOB\n\n글로벌 춤 서열 1위를 가려라!\n〈스트릿 우먼 파이터2〉\n매주 화요일 밤 10시 본 방송\n\n#스트릿우먼파이터2 #StreetWomanFighter2 #스우파2 #SWF2 #강다니엘 #KANGDANIEL #모니카 #MONIKA #셔누 #SHOWNU #다이나믹듀오 #이영지 #Smoke #원밀리언 #1MILLION #베베 #BEBE #딥앤댑 #DEEPNDAP #잼리퍼블릭 #JAMREPUBLIC #레이디바운스 #LADYBOUNCE #마네퀸 #MANNEQUEEN #츠바킬 #TSUBAKILL #울플러 #WolfLo #댄스 #dance #엠넷 #Mnet",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iuIzniSa1Hs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iuIzniSa1Hs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iuIzniSa1Hs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iuIzniSa1Hs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iuIzniSa1Hs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "The CHOOM (더 춤)",
+        "tags": ["CJ100"],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[스우파2/풀버전] 리더 계급 댄스 비디오 l Smoke (Prod. Dynamicduo, Padi) - 다이나믹 듀오, 이영지 #스트릿우먼파이터2",
+          "description": "[스우파2/풀버전] 리더 계급 댄스 비디오 l Smoke (Prod. Dynamicduo, Padi) - 다이나믹 듀오, 이영지\n\nBada / Akanen / Funky_Y / HALO / Kirsten / LIA KIM / Mina Myoung / NOB\n\n글로벌 춤 서열 1위를 가려라!\n〈스트릿 우먼 파이터2〉\n매주 화요일 밤 10시 본 방송\n\n#스트릿우먼파이터2 #StreetWomanFighter2 #스우파2 #SWF2 #강다니엘 #KANGDANIEL #모니카 #MONIKA #셔누 #SHOWNU #다이나믹듀오 #이영지 #Smoke #원밀리언 #1MILLION #베베 #BEBE #딥앤댑 #DEEPNDAP #잼리퍼블릭 #JAMREPUBLIC #레이디바운스 #LADYBOUNCE #마네퀸 #MANNEQUEEN #츠바킬 #TSUBAKILL #울플러 #WolfLo #댄스 #dance #엠넷 #Mnet"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2M13S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "2971825",
+        "likeCount": "140702",
+        "favoriteCount": "0",
+        "commentCount": "5949"
+      }
+    }
+  ],
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 200,
+    "resultsPerPage": 5
+  }
+}
