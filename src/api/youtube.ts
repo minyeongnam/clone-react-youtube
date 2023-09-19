@@ -1,16 +1,12 @@
-import axios, { type AxiosInstance } from 'axios';
 import { type MostPopurType, type KeywordType } from '../type/youtube';
+import type Youtubeclient from './youtubeClient';
+import type YoutubeFake from './youtubeFake';
 
 export default class Youtube {
-  httpClient: AxiosInstance;
+  apiClient;
 
-  constructor() {
-    this.httpClient = axios.create({
-      baseURL: 'https://youtube.googleapis.com/youtube/v3/',
-      params: {
-        key: process.env.REACT_APP_YOUTUBE_API_KEY,
-      },
-    });
+  constructor(apiClient: Youtubeclient | YoutubeFake) {
+    this.apiClient = apiClient;
   }
 
   async search(keyword: string | undefined) {
@@ -18,8 +14,8 @@ export default class Youtube {
   }
 
   async #searchByKeyword(keyword: string): Promise<KeywordType[]> {
-    return await this.httpClient
-      .get(`search`, {
+    return await this.apiClient
+      .search({
         params: {
           part: 'snippet',
           maxResults: 25,
@@ -32,8 +28,8 @@ export default class Youtube {
   }
 
   async #mostPopular(): Promise<MostPopurType[]> {
-    return await this.httpClient
-      .get(`videos`, {
+    return await this.apiClient
+      .videos({
         params: {
           part: 'snippet',
           maxResults: 25,

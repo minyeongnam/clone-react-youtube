@@ -214,24 +214,26 @@ export interface MostPopurType {
   >;
 }
 
+export interface KeywordSnippetType {
+  publishedAt: Date;
+  channelId: string;
+  title: string;
+  description: string;
+  thumbnails: Record<
+    string,
+    {
+      url: string;
+      width: number;
+      height: number;
+    }
+  >;
+  channelTitle: string;
+  liveBroadcastContent: string;
+}
+
 export interface KeywordType {
   kind: 'youtube#searchResult';
   etag: string;
   id: string;
-  snippet: {
-    publishedAt: Date;
-    channelId: string;
-    title: string;
-    description: string;
-    thumbnails: Record<
-      string,
-      {
-        url: string;
-        width: number;
-        height: number;
-      }
-    >;
-    channelTitle: string;
-    liveBroadcastContent: string;
-  };
+  snippet: KeywordSnippetType;
 }
