@@ -1,31 +1,33 @@
+export interface MostPopurSnippetType {
+  publishedAt: Date;
+  channelId: string;
+  title: string;
+  description: string;
+  thumbnails: Record<
+    string,
+    {
+      url: string;
+      width: number;
+      height: number;
+    }
+  >;
+  channelTitle: string;
+  tags: [string];
+  categoryId: string;
+  liveBroadcastContent: string;
+  defaultLanguage: string;
+  localized: {
+    title: string;
+    description: string;
+  };
+  defaultAudioLanguage: string;
+}
+
 export interface MostPopurType {
   kind: 'youtube#video';
   etag: string;
   id: string;
-  snippet: {
-    publishedAt: Date;
-    channelId: string;
-    title: string;
-    description: string;
-    thumbnails: Record<
-      string,
-      {
-        url: string;
-        width: number;
-        height: number;
-      }
-    >;
-    channelTitle: string;
-    tags: [string];
-    categoryId: string;
-    liveBroadcastContent: string;
-    defaultLanguage: string;
-    localized: {
-      title: string;
-      description: string;
-    };
-    defaultAudioLanguage: string;
-  };
+  snippet: MostPopurSnippetType;
   contentDetails: {
     duration: string;
     dimension: string;

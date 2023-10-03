@@ -8,4 +8,8 @@ export default class YoutubeFake {
   async videos() {
     return await axios.get(`/mock/mostPopular.json`);
   }
+
+  async channel() {
+    return await axios.get(`/mock/channel.json`);
+  }
 }

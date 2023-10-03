@@ -24,7 +24,9 @@ export default class Youtube {
         },
       })
       .then((res) => res.data.items)
-      .then((items) => items.map((item: any) => ({ ...item, id: item.id.viedoId })));
+      .then((items) =>
+        items.map((item: any) => ({ ...item, id: item.id.videoId ?? item.id.channelId })),
+      );
   }
 
   async #mostPopular(): Promise<MostPopurType[]> {
@@ -38,6 +40,19 @@ export default class Youtube {
         },
       })
       .then((res) => res.data.items)
-      .then((items) => items.map((item: any) => ({ ...item, id: item.id.viedoId })));
+      .then((items) =>
+        items.map((item: any) => ({ ...item, id: item.id.videoId ?? item.id.channelId })),
+      );
+  }
+
+  channelIconUrl(channelId: string): any {
+    return this.apiClient
+      .channel({
+        params: {
+          part: 'snippet,contentDetails,statistics',
+          id: channelId,
+        },
+      })
+      .then((res) => res.data.items[0].snippet.thumbnails.default.url);
   }
 }

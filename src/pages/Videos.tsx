@@ -18,7 +18,12 @@ export default function Videos() {
       <div>{keyword ?? 'hot trend'}</div>
       {isLoading && <div>isLoading...</div>}
       {isError && <div>isError...</div>}
-      {videoData?.map(({ id, snippet }) => <VideoCard snippet={snippet} key={id} />)}
+      <ul>
+        {videoData?.map(({ id, snippet }) => {
+          console.log(id);
+          return <VideoCard id={id} snippet={snippet} key={id} />;
+        })}
+      </ul>
     </>
   );
 }

@@ -14,9 +14,9 @@ export default class Youtubeclient {
 
   async search(params: {
     params: {
-      part: 'snippet';
+      part: string;
       maxResults: number;
-      type: 'video';
+      type: string;
       q: string;
     };
   }) {
@@ -25,12 +25,21 @@ export default class Youtubeclient {
 
   async videos(params: {
     params: {
-      part: 'snippet';
+      part: string;
       maxResults: number;
-      chart: 'mostPopular';
-      regionCode: 'KR';
+      chart: string;
+      regionCode: string;
     };
   }) {
     return await this.httpClient.get('search', params);
+  }
+
+  async channel(params: {
+    params: {
+      part: string;
+      id: string;
+    };
+  }) {
+    return await this.httpClient.get('channels', params);
   }
 }
