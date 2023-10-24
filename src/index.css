@@ -125,5 +125,5 @@ body {
 }
 
 .channel img {
-  @apply w-10 h-10 inline-block align-middle rounded-full;
+  @apply w-10 h-10 inline-block align-middle rounded-full mr-2;
 }
