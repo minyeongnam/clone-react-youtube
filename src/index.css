@@ -3,17 +3,127 @@
 @tailwind utilities;
 
 body {
-  padding: 0;
-  margin: 0;
+  @apply p-0 m-0;
 }
 
 .header {
-  @apply flex justify-between;
-  @apply w-full p-4 mb-4;
-  @apply border-b border-zinc-600;
-  @apply text-2xl;
+  @apply flex justify-between fixed w-full h-20 p-4 border-b border-slate-300 bg-white text-2xl;
+}
+
+.search {
+  @apply w-1/3 h-10  border-b border-slate-500;
+}
+.search__input {
+  @apply w-11/12 h-full px-3;
+}
+.search__btn {
+  @apply w-1/12;
 }
 
 .logo {
   @apply flex items-center gap-x-2.5;
+}
+
+.container {
+  @apply w-full max-w-7xl mx-auto my-0 pb-10 pt-32;
+}
+
+.keyword {
+  @apply text-3xl mb-3 font-bold;
+}
+
+.card {
+  @apply w-full;
+}
+.card__inner {
+  @apply flex flex-col h-full;
+}
+
+.card__thumb {
+  @apply flex-shrink-0 flex-grow-0 basis-32 overflow-hidden;
+}
+
+.card__thumb img {
+  @apply w-full h-full object-cover;
+}
+
+.card__info {
+  @apply flex-auto p-4 border-x border-y border-slate-300;
+}
+.card__title {
+  @apply overflow-hidden h-14 text-ellipsis line-clamp-2 text-lg break-keep;
+}
+.card__channel {
+  @apply block mt-2 text-base;
+}
+.card__ago {
+  @apply block text-sm text-right;
+}
+
+.video-list {
+  @apply grid grid-cols-5 gap-4;
+}
+
+.video-view {
+  @apply flex gap-5;
+}
+
+.video-view__video {
+  @apply flex-auto;
+}
+
+.video-view__related {
+  @apply flex-shrink-0 flex-grow-0 basis-1/3;
+}
+
+.related-list .related-list__item {
+  @apply h-24 mt-3;
+}
+
+.related-list .related-list__item:first-child {
+  @apply mt-0;
+}
+
+.related-list .related-list__item .card__inner {
+  @apply flex-row;
+}
+
+.related-list .related-list__item .card__thumb {
+  @apply basis-2/5;
+}
+
+.related-list .related-list__item .card__info {
+  @apply basis-3/5  border-none py-0;
+  max-width: 60%;
+}
+
+.related-list .related-list__item .card__title {
+  @apply h-fit text-sm;
+}
+
+.related-list .related-list__item .card__channel {
+  @apply h-fit text-ellipsis line-clamp-1 text-xs;
+}
+
+.related-list .related-list__item .card__ago {
+  @apply text-left text-xs;
+}
+
+.video__info {
+  @apply flex flex-col gap-3;
+}
+
+.video__title {
+  @apply block mt-3 text-xl;
+}
+.video__description {
+  @apply text-base bg-slate-100 p-3;
+}
+
+.channel {
+  @apply text-sm;
+}
+
+.channel img {
+  @apply w-10 h-10 inline-block align-middle rounded-full;
 }

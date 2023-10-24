@@ -15,13 +15,19 @@ export default function Videos() {
 
   return (
     <>
-      <div>{keyword ?? 'hot trend'}</div>
+      <h1 className="keyword">{keyword === undefined ? 'HOT TREND🔥' : `KEYWORD: ${keyword}`}</h1>
       {isLoading && <div>isLoading...</div>}
       {isError && <div>isError...</div>}
-      <ul>
-        {videoData?.map(({ id, snippet }) => {
-          console.log(id);
-          return <VideoCard id={id} snippet={snippet} key={id} />;
+      <ul className="video-list">
+        {videoData?.map(({ id, snippet }, index) => {
+          return (
+            <VideoCard
+              id={id}
+              snippet={snippet}
+              key={`${id}${index}`}
+              className="video-list__item"
+            />
+          );
         })}
       </ul>
     </>

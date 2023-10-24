@@ -17,7 +17,8 @@ export default class Youtubeclient {
       part: string;
       maxResults: number;
       type: string;
-      q: string;
+      q?: string;
+      channelId?: string;
     };
   }) {
     return await this.httpClient.get('search', params);

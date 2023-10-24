@@ -16,9 +16,6 @@ export default function App() {
           </YoutubeApiProvider>
         </QueryClientProvider>
       </div>
-      <footer>
-        <footer>footer</footer>
-      </footer>
     </>
   );
 }

@@ -28,9 +28,9 @@ export default function Header() {
           placeholder="search"
           value={searchText}
           onChange={handleChangeSearch}
-          className="search-input"
+          className="search__input"
         />
-        <button type="submit">
+        <button type="submit" className="search__">
           <BsSearch />
         </button>
       </form>

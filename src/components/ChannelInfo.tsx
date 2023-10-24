@@ -13,7 +13,7 @@ export default function ChannelInfo({ channelId, channelTitle }: ChannelProps) {
     () => youtube?.channelIconUrl(channelId),
   );
   return (
-    <div>
+    <div className="channel">
       <img src={channelIconUrl} alt="채널 아이콘" />
       {channelTitle}
     </div>

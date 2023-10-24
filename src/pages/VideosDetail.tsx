@@ -1,5 +1,6 @@
 import { useLocation, useParams } from 'react-router-dom';
 import ChannelInfo from '../components/ChannelInfo';
+import RelatedVideos from '../components/RelatedVideos';
 
 export default function VideoDetail() {
   const { videoId } = useParams();
@@ -8,8 +9,8 @@ export default function VideoDetail() {
   } = useLocation();
   const { title, channelTitle, description, channelId } = snippet;
   return (
-    <div>
-      <div className="video">
+    <div className="video-view">
+      <div className="video-view__video">
         <iframe
           id="player"
           className="video__iframe"
@@ -21,16 +22,12 @@ export default function VideoDetail() {
           frameBorder={0}
         />
         <div className="video__info">
-          <h1>{title}</h1>
+          <strong className="video__title">{title}</strong>
           <ChannelInfo channelId={channelId} channelTitle={channelTitle} />
-          <p>{description}</p>
+          <p className="video__description">{description}</p>
         </div>
       </div>
-      <div>
-        <ul>
-          <li>리스트다</li>
-        </ul>
-      </div>
+      <RelatedVideos channelId={channelId} className="video-view__related" />
     </div>
   );
 }

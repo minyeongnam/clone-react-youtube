@@ -55,4 +55,19 @@ export default class Youtube {
       })
       .then((res) => res.data.items[0].snippet.thumbnails.default.url);
   }
+
+  async RelatedVideos(channelId: string) {
+    return await this.apiClient
+      .search({
+        params: {
+          part: 'snippet',
+          maxResults: 25,
+          type: 'video',
+          channelId,
+        },
+      })
+      .then((res) =>
+        res.data.items.map((item: any) => ({ ...item, id: item.id.videoId ?? item.id.channelId })),
+      );
+  }
 }
