@@ -12,6 +12,7 @@ export default function RelatedVideos({ channelId, className }: RelatedVideosPro
   const { data: RelatedVideos } = useQuery(
     ['RelatedVideos', channelId],
     async () => await youtube?.RelatedVideos(channelId),
+    {staleTime: 1000 * 60 * 5}
   );
 
   return (

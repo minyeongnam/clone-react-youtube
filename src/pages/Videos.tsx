@@ -11,7 +11,7 @@ export default function Videos() {
     data: videoData,
     isLoading,
     isError,
-  } = useQuery(['videos', keyword], async () => await youtube?.search(keyword));
+  } = useQuery(['videos', keyword], async () => await youtube?.search(keyword), {staleTime: 1000 * 60 * 1});
 
   return (
     <>

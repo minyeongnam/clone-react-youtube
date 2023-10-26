@@ -10,7 +10,7 @@ export default function ChannelInfo({ channelId, channelTitle }: ChannelProps) {
   const youtube = useYoutubeApi();
   const { data: channelIconUrl } = useQuery(
     ['channelIconUrl', channelId],
-    () => youtube?.channelIconUrl(channelId),
+    () => youtube?.channelIconUrl(channelId), {staleTime: 1000* 60 * 5}
   );
   return (
     <div className="channel">

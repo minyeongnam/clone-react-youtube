@@ -20,6 +20,7 @@ export default function VideoDetail() {
           src={`https://www.youtube.com/embed/${videoId}`}
           allowFullScreen={true}
           frameBorder={0}
+          title={title}
         />
         <div className="video__info">
           <strong className="video__title">{title}</strong>
